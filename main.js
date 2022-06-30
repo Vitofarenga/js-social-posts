@@ -97,14 +97,11 @@ const posts = [
     }
 ];
 
-const cont = document.getElementsByName('body');
+const content = document.getElementsById('container');
 
 posts.forEach((element) =>{
-    cont.innerHTML += 
-    `<div id="container" class="posts-list">
-
-        
-        <div class="post">
+    content.innerHTML += 
+    `<div class="post">
             <div class="post__header">
                 <div class="post-meta">
                     <div class="post-meta__icon">
@@ -133,7 +130,5 @@ posts.forEach((element) =>{
                     </div>
                 </div>
             </div>
-        </div>
-
-    </div>`
+        </div>`
 });
