@@ -97,7 +97,7 @@ const posts = [
     }
 ];
 
-const content = document.getElementsById('container');
+const content = document.getElementById('container');
 
 posts.forEach((element) =>{
     content.innerHTML += 
@@ -105,10 +105,10 @@ posts.forEach((element) =>{
             <div class="post__header">
                 <div class="post-meta">
                     <div class="post-meta__icon">
-                        <img class="profile-pic" src="${element.image}" alt="Phil Mangione">
+                        <img class="profile-pic" src="${element.author.image}" alt="">
                     </div>
                     <div class="post-meta__data">
-                        <div class="post-meta__author">${element.name}</div>
+                        <div class="post-meta__author">${element.author.name}</div>
                         <div class="post-meta__time">${element.created}</div>
                     </div>
                 </div>
