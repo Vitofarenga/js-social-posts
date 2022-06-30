@@ -135,8 +135,8 @@ posts.forEach((element) =>{
 
 const likeBtn = ("like-button");
 
-function colore(element){
-element.classList.add("red");
+function colore(elemento){
+elemento.classList.add('red');
 };
 
-likeBtn.addEventListener('click', 'colore');
+likeBtn.addEventListener('click', colore());
