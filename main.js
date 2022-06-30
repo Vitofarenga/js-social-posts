@@ -133,3 +133,10 @@ posts.forEach((element) =>{
         </div>`
 });
 
+const likeBtn = ("like-button");
+
+function colore(element){
+element.classList.add("red");
+};
+
+likeBtn.addEventListener('click', 'colore');
