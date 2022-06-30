@@ -132,3 +132,4 @@ posts.forEach((element) =>{
             </div>
         </div>`
 });
+
