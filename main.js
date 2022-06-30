@@ -97,8 +97,10 @@ const posts = [
     }
 ];
 
+const cont = document.getElementsByName('body');
+
 posts.forEach((element) =>{
-    content.innerHTML += 
+    cont.innerHTML += 
     `<div id="container" class="posts-list">
 
         
